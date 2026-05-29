@@ -1,0 +1,39 @@
+--- .gitignore (原始)
+
+
++++ .gitignore (修改后)
+```
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+```
